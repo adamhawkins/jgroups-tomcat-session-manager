@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mobileiq.pressrun</groupId>
   <artifactId>JGroupsSessionManager</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <dependencies>
   	<dependency>
   		<groupId>jgroups</groupId>
@@ -12,7 +12,8 @@
   	<dependency>
   		<groupId>org.apache.tomcat</groupId>
   		<artifactId>tomcat-catalina</artifactId>
-  		<version>7.0.12</version>
+  		<version>7.0.22</version>
+  		<scope>provided</scope>
   	</dependency>
   </dependencies>
 </project>
